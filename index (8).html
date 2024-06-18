@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROZANA</title>
+
+</head>
+<body>
+
+<!-- Splash screen -->
+<div class="splash-screen" id="splash-screen">
+  <h1>Welcome to</h1>
+  <h2>ROZANA</h2>
+</div>
+
+<header class="navbar">
+  <!-- Navigation links go here -->
+</header>
+
+<section class="banner">
+  <!-- Banner image and text go here -->
+  <h1>ROZANA</h1>
+</section>
+
+<div class="marquee-container">
+  <marquee behavior="scroll" direction="left">ROZANA &nbsp;&nbsp;&nbsp;&nbsp; wedding hall</marquee>
+</div>
+<section class="about-rozana">
+  <h2 style="color:#00cded;">ABOUT <span>ROZANA </span></h2>
+  <p>Welcome to our <span>wedding hall </span> in Cairo. We know how important your big day is, and we're here to make it perfect. Our team has years of experience making weddings special. From the first meeting to the last dance, we work with you every step of the way. Let's create unforgettable memories together at our beautiful venue.</p>
+</section>
+
+<section class="services">
+  <div class="service" style="background-image: url('myimages/mee2.jpg.png');">
+    <h3>Service 1</h3>
+    <p style="color: black;">Rozana Wedding Hall offers a luxurious venue with modern amenities, designed to host unforgettable celebrations. Featuring elegant decor and spacious halls, Rozana ensures a perfect setting for weddings and special events. </p>
+  </div>
+  <div class="service" style="background-image: url('myimages/mee2.jpg.png');">
+    <h3>Service 2</h3>
+    <p style="color: black;">Rozana Wedding Hall provides a prestigious venue synonymous with elegance and sophistication. Boasting opulent interiors and state-of-the-art facilities, Rozana is tailored to exceed expectations for weddings and all types of grand celebrations.</p>
+  </div>
+  <div class="service" style="background-image: url('myimages/mee2.jpg.png');">
+    <h3>Service 3</h3>
+    <p style="color: black;">Rozana Wedding Hall epitomizes luxury and refinement, offering a distinguished venue for celebrations. With its impeccable design and spacious halls, Rozana ensures a memorable experience for weddings and special events, setting a new standard in elegance and hospitality.</p>
+  </div>
+  <div class="service" style="background-image: url('myimages/mee2.jpg.png');">
+    <h3>Service 4</h3>
+    <p style="color:black;">Rozana Wedding Hall stands as a beacon of elegance and grandeur, providing a stunning backdrop for any special occasion. From its tastefully decorated interiors to its spacious halls and modern amenities, Rozana promises an unforgettable experience, perfect for weddings and cherished celebrations alike.</p>
+  </div>
+  <div class="service" style="background-image: url('myimages/mee2.jpg.png');">
+    <h3>Service 5</h3>
+    <p style="color:black;">Rozana Wedding Hall offers a blend of sophistication and charm, ideal for hosting exquisite celebrations. Featuring exquisite decor and ample space, Rozana provides a luxurious setting for weddings and memorable events, ensuring every moment is marked with elegance and grace.</p>
+  </div>
+  <div class="service" style="background-image: url('myimages/mee2.jpg.png');">
+    <h3>Service 6</h3>
+    <p style="color:black;">Rozana Wedding Hall embodies luxury and grace, providing a premier venue for extraordinary celebrations. With its lavish interiors, meticulous attention to detail, and expansive halls, Rozana creates a perfect atmosphere for weddings and special occasions, promising an unparalleled experience of elegance and opulence.</p>
+  </div>
+  <div class="service" style="background-image: url('myimages/mee2.jpg.png');">
+    <h3>Service 7</h3>
+    <p style="color:black;">Rozana Wedding Hall offers a prestigious setting where luxury meets convenience, tailored for unforgettable events. Its stylish décor and spacious halls create an ambiance of sophistication, making Rozana the perfect choice for weddings and cherished gatherings, ensuring every moment is celebrated in grandeur and splendor.</p>
+  </div>
+</section>
+
+<section class="decor-setup">
+  <h2 style="color:#00cded;">Decor and Setup</h2>
+  <p>Transform your venue with our elegant and personalized decor options.</p>
+</section>
+
+<section class="pricing-table">
+  <h2 style="color:#00cded;">Pricing Table</h2>
+  <div class="package" id="basic-package">
+    <h3>Basic Wedding Package</h3>
+    <p class="price">$2,000 per event</p>
+    <p style="color: green;">A simple yet elegant setup for small weddings, includes seating and basic decor.
+  </p>
+  <button oneclick="moreInfo('elegant')">More Info</button>
+  </div>
+  <div class="package" id="elegant-package">
+    <h3>Elegant Wedding Package</h3>
+    <p class="price">$5,000 per event</p>
+    <p style="color: green;">A refined package with enhanced decor, full catering, and additional lighting options for larger ceremonies.</p>
+    <button onclick="moreInfo('elegant')">More Info</button>
+  </div>
+</section>
+
+<section class="contact-us">
+  <h2>Contact Us Today</h2>
+  <form id="contact-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required="">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required="">
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required=""></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section class="location-map">
+  <!-- Add a map here using a map service like Google Maps or OpenStreetMap -->
+</section>
+
+
+
+
+</body>
+<style>  /* Basic CSS styles for Rozana Moments website */
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #513e31;
+    position: relative;
+  }
+  .navbar {
+    background-color:#003e64;
+    border-bottom: 1px solid #003e64
+    padding: 10px 20px;
+  }
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  .banner {
+    position: relative; /* Ensure relative positioning for child elements */
+    height: 25vh; /* Height equal to 25% of viewport height */
+    background-color: #003e64;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .banner h1 {
+    font-size: 3em;
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+  }
+  .marquee-container {
+    background-color:#000000;
+    padding: 10px;
+    text-align: center;
+  }
+  .marquee-container marquee {
+    font-size: 1.5em;
+    color: #fff;
+  }
+  .services, .about-rozana, .decor-setup, .pricing-table, .contact-us {
+    padding: 40px 20px;
+  }
+  .services .service, .pricing-table .package {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #333;
+  }
+  p {
+    color: #fff; /* White color for paragraphs */
+  }
+  .pricing-table h2 {
+    color: lightgreen; /* Light green color for the header */
+  }
+  .decor-setup h2 {
+    color: lightblue; /* Light blue color for the header */
+  }
+  .pricing-table .price {
+    color: #0067ab;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .pricing-table button {
+    background-color: #FFA500; /* Orange color for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .pricing-table button:hover {
+    background-color: #CC8400; /* Darker orange on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  .contact-us h2 {
+    color: #fff; /* White color for the header */
+  }
+  .contact-us form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .contact-us input[type='text'],
+  .contact-us input[type='email'],
+  .contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .contact-us button {
+    background-color: #4CAF50; /* Green color for the button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .location-map {
+    height: 300px; /* Adjust as needed */
+  }
+  /* Splash screen styles */
+  .splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #513e31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 1s ease;
+  }
+  .splash-screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .splash-screen h1 {
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    animation: moveUp 2s forwards;
+  }
+  .splash-screen h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 20px 0 0 0;
+    animation: moveDown 2s forwards;
+  }
+  @keyframes moveUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes moveDown {
+    from {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }</style><script>  // JavaScript functions go here
+  function moreInfo(packageType) {
+    if(packageType === 'basic') {
+      alert('Information about the Basic Wedding Package.');
+    } else if(packageType === 'elegant') {
+      alert('Information about the Elegant Wedding Package.');
+    }
+  }
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for contacting us!');
+    // Here you can add additional logic to handle form submission, like sending data to a server
+    // or displaying a confirmation message to the user.
+  });
+  // Splash screen logic
+  window.addEventListener('load', function() {
+    const splashScreen = document.getElementById('splash-screen');
+    setTimeout(() => {
+      splashScreen.classList.add('hidden');
+    }, 3000); // Adjust the time as needed
+  });</script>
+  </html>
